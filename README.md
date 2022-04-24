@@ -1,4 +1,4 @@
-# y24-interview-q1
+# Stack-in-Python
 
 This project contains a stack implementation. Unit tests for the function are provided.
 
