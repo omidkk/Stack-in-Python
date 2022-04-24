@@ -1,0 +1,5 @@
+[MESSAGES CONTROL]
+# C0111 Missing docstring
+# C0103 Invalid name
+# W0621 redefined-outer-name
+disable=C0111,C0301,C0103, W0621
