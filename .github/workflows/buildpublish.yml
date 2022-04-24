@@ -19,7 +19,7 @@ jobs:
         run: |
           pytest test/test_stack.py
       - name: Prepare package for release
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         run: |
           python3 setup.py sdist
           cp ./dist/*.tar.gz ${RUNNER_TEMP}/stack.tar.gz
