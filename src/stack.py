@@ -20,7 +20,7 @@ class Stack:
 
     def push(self, item):
         """
-        appends the item to the end of stack
+        Appends the item to the end of stack
         :param item: element to insert
         :return: None
         """
